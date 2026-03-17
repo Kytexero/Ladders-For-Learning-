@@ -57,7 +57,7 @@ Replace the placeholder files with your actual images:
 
 | File Path | Description | Recommended Size |
 |-----------|-------------|-----------------|
-| `src/assets/logo.png` | Your Ladders for Learning logo | ~200px wide |
+| `src/assets/logo.png` | Ladders for Learning logo | ~200px wide |
 | `src/assets/slides/slide1.jpg` | Hero slideshow image 1 | 1920×1080 |
 | `src/assets/slides/slide2.jpg` | Hero slideshow image 2 | 1920×1080 |
 | `src/assets/slides/slide3.jpg` | Hero slideshow image 3 | 1920×1080 |
