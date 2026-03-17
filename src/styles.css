@@ -1,0 +1,139 @@
+/* ============================================
+   LADDERS FOR LEARNING — Global Styles
+   Colors: Pakistan green #01411C, White, Charcoal
+   Typography: Playfair Display (serif headings), Source Sans 3 (sans body)
+   ============================================ */
+
+:root {
+  --green: #01411C;
+  --green-light: #026b2e;
+  --green-dark: #012e14;
+  --white: #ffffff;
+  --charcoal: #333333;
+  --charcoal-light: #555555;
+  --off-white: #f9f9f7;
+  --divider: #01411C;
+  --font-heading: 'Playfair Display', Georgia, 'Times New Roman', serif;
+  --font-body: 'Source Sans 3', 'Segoe UI', Helvetica, Arial, sans-serif;
+}
+
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-body);
+  font-size: 1rem;
+  line-height: 1.6;
+  color: var(--charcoal);
+  background-color: var(--white);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+  color: var(--green);
+  font-weight: 700;
+  line-height: 1.25;
+}
+
+h1 { font-size: 3rem; }
+h2 { font-size: 2.25rem; }
+h3 { font-size: 1.5rem; }
+
+p {
+  font-size: 1rem;
+  line-height: 1.65;
+  color: var(--charcoal);
+}
+
+a {
+  color: var(--green);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+a:hover {
+  color: var(--green-light);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+/* Utility */
+.text-center { text-align: center; }
+.text-white { color: var(--white); }
+
+/* Button base */
+.btn {
+  display: inline-block;
+  padding: 14px 36px;
+  font-family: var(--font-body);
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.25s ease;
+  text-decoration: none;
+  letter-spacing: 0.02em;
+}
+
+.btn-primary {
+  background-color: var(--green);
+  color: var(--white);
+}
+
+.btn-primary:hover {
+  background-color: var(--green-light);
+  color: var(--white);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(1, 65, 28, 0.3);
+}
+
+.btn-white {
+  background-color: var(--white);
+  color: var(--green);
+}
+
+.btn-white:hover {
+  background-color: var(--off-white);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+/* Green divider line */
+.divider {
+  width: 80px;
+  height: 3px;
+  background-color: var(--green);
+  margin: 0 auto;
+}
+
+/* Section spacing */
+section {
+  padding: 80px 0;
+}
+
+@media (max-width: 768px) {
+  h1 { font-size: 2.25rem; }
+  h2 { font-size: 1.75rem; }
+  h3 { font-size: 1.25rem; }
+  section { padding: 48px 0; }
+}

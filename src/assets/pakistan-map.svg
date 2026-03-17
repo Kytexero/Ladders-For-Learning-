@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 500" width="600" height="500">
+  <style>
+    .land { fill: #c8e6c9; stroke: #01411C; stroke-width: 1.5; }
+    .highlight { fill: #01411C; }
+    .label { font-family: 'Source Sans 3', sans-serif; font-size: 13px; fill: #333; }
+    .label-highlight { font-family: 'Source Sans 3', sans-serif; font-size: 12px; fill: #01411C; font-weight: 700; }
+    .title { font-family: 'Playfair Display', serif; font-size: 18px; fill: #01411C; font-weight: 700; }
+    .dot { fill: #01411C; }
+    .dot-ring { fill: none; stroke: #01411C; stroke-width: 2; opacity: 0.4; }
+    .border { fill: none; stroke: #888; stroke-width: 0.5; stroke-dasharray: 4,3; }
+  </style>
+
+  <!-- Pakistan simplified outline -->
+  <path class="land" d="
+    M 180 60 L 220 40 L 270 30 L 310 45 L 340 35 L 380 50 L 400 80
+    L 420 75 L 440 90 L 430 120 L 450 140 L 440 170 L 460 200
+    L 450 230 L 430 250 L 420 280 L 400 310 L 380 340 L 350 370
+    L 320 390 L 280 410 L 240 430 L 200 440 L 170 430 L 140 400
+    L 120 370 L 110 330 L 100 290 L 110 250 L 130 220 L 140 190
+    L 150 160 L 160 130 L 170 100 L 175 80 Z
+  "/>
+
+  <!-- Punjab region outline (approximate) -->
+  <path class="border" d="M 280 150 L 350 170 L 380 220 L 370 280 L 330 320 L 280 330 L 240 300 L 230 250 L 250 200 Z"/>
+  <text x="290" y="230" class="label" text-anchor="middle" opacity="0.6">Punjab</text>
+
+  <!-- Haroonabad marker -->
+  <circle cx="310" cy="290" r="6" class="dot"/>
+  <circle cx="310" cy="290" r="14" class="dot-ring">
+    <animate attributeName="r" values="14;20;14" dur="2s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.4;0.1;0.4" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <text x="328" y="287" class="label-highlight">Haroonabad</text>
+
+  <!-- Bhawalnagar marker -->
+  <circle cx="330" cy="310" r="6" class="dot"/>
+  <circle cx="330" cy="310" r="14" class="dot-ring">
+    <animate attributeName="r" values="14;20;14" dur="2s" repeatCount="indefinite" begin="0.5s"/>
+    <animate attributeName="opacity" values="0.4;0.1;0.4" dur="2s" repeatCount="indefinite" begin="0.5s"/>
+  </circle>
+  <text x="348" y="318" class="label-highlight">Bhawalnagar</text>
+
+  <!-- Major cities for reference -->
+  <circle cx="300" cy="180" r="3.5" fill="#555"/>
+  <text x="312" y="184" class="label">Lahore</text>
+
+  <circle cx="260" cy="160" r="3.5" fill="#555"/>
+  <text x="217" y="164" class="label">Islamabad</text>
+
+  <circle cx="200" cy="330" r="3.5" fill="#555"/>
+  <text x="160" y="334" class="label">Karachi</text>
+
+  <!-- Title -->
+  <text x="300" y="475" class="title" text-anchor="middle">Geographic Focus — Southern Punjab, Pakistan</text>
+</svg>
