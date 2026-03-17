@@ -4,7 +4,7 @@ A modern, responsive website for **Ladders for Learning**, a nonprofit organizat
 
 > **Live Demo:** _[Add your deployed URL here]_
 
-![Screenshot placeholder](https://via.placeholder.com/1200x630?text=Add+a+screenshot+of+your+site+here)
+<img src="./logo.png" alt="Ladders for Learning" width="200">
 
 ---
 
@@ -99,6 +99,4 @@ Output is written to `dist/ladders-for-learning/` — deploy to any static hosti
 
 **Images** — Replace placeholder files in `src/assets/` (use compressed JPGs; optimize at [squoosh.app](https://squoosh.app))
 
-## License
 
-_[Add your license here, or remove this section]_
