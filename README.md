@@ -2,7 +2,7 @@
 
 A modern, responsive website for **Ladders for Learning**, a nonprofit organization dedicated to expanding educational access in Haroonabad and Bhawalnagar, Pakistan. Built with Angular 17 as a single-page application with scroll-driven storytelling, animated impact metrics, and a streamlined donation flow.
 
-> **Live Demo:** _[Add your deployed URL here]_
+> **Live Demo:** _[Will put url when domain is bought]_
 
 <img src="./logo.png" alt="Ladders for Learning" width="200">
 
